@@ -1,0 +1,71 @@
+html {
+header{
+        font-family: "Concert One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 70;
+
+        background-color: #F8E3C4; /* Color de fondo del rectángulo */
+        padding: 0px; /* Espaciado interno del rectángulo */
+        
+        width: 350px; /*Ancho del Rectangulo*/
+        border: 5px solid #D0B37C; /* Borde del rectángulo */
+        border-radius: 10px; /* Bordes redondeados */
+        text-align: center; /* Centrar el texto dentro del rectángulo */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de profundidad */
+        margin: auto;
+ }
+   
+    }
+      
+body{
+    background-color: #B6E2EB;
+    border: 10px  solid #29277b;
+    margin: 5px; /*Representa el espacio con línea azul*/
+    padding: 20px;
+    /*align-items: center; /*centra el contenido vertial es flex Flex es horitxontal*/ 
+    display: grid; /*Centra a  todo que tiene dentro pero teniendo en cuento que puede tomar la anchura del elemento más ancho*/
+    place-content: center; /*Ayuda a centrar omitiendo el ancho*/
+
+}
+
+footer{
+    font-family: "Concert One", sans-serif;
+    display: grid;
+    place-content: center;
+}
+
+ul{
+    display: flex;
+    flex-wrap:wrap ;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.lista{
+    background-color: #F8E3C4; /* Color de fondo del rectángulo */
+    padding: 10px 5px; /* Espaciado interno del rectángulo */
+    width: 250px; /*Ancho del Rectangulo*/
+    border: 5px solid #D0B37C; /* Borde del rectángulo */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Centrar el texto dentro del rectángulo */
+    font-family: "Concert One" ,sans-serif;
+    list-style-type: none; /* Elimina las viñetas */
+    margin: 10px; /*Espacio entre los de la lista rectangulo*/
+
+    
+}
+  
+#reset-button{
+    background-color: #FEF3F3; /* Color de fondo azul */
+    padding: 8px 10px; /* Espaciado interno */
+    font-size: 1em; /* Tamaño de fuente */
+    border-radius: 35px; /* Bordes redondeados */
+    border:5px solid #29277B;
+    font-family: "Concert One", sans-serif;
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    width: 150px; /* Ancho del fondo*/
+   margin: auto;
+}
+   

@@ -41,5 +41,8 @@
     "createdAt": "2024-04-29T18:44:59.190Z",
     "version": "8.4.0",
     "commit": "d5b8aec07b9436348c5e1eb156926b50f8ab795f"
+  },
+  "dependencies": {
+    "playwright": "^1.44.1"
   }
 }
